@@ -1,12 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import AppHeader from './AppHeader';
+import Property_details from './Property-details';
+// import logos from '../public/images/placeholder.png';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
 
-      </header>
+          <img src={'../my-app/public/images/IMG_7721.jpg'} />
+          <h4>
+            dddddddd
+          </h4>
+   
+      {/* <AppHeader /> */}
+      {/* <Property_details /> */}
+    
     </div>
   );
 }
